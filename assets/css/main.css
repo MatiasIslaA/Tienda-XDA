@@ -1,0 +1,159 @@
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 30px;
+}
+
+.nav__title {
+  background-color: #0c0910;
+  padding: 10px;
+}
+.nav__title a {
+  color: #fff !important;
+  font-family: "Old Standard TT", serif;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #0c0910;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.main__column {
+  max-height: 100%;
+}
+
+.image {
+  background-size: cover;
+  background-image: url("../img/imagen1.png");
+}
+
+.main__description {
+  height: 70%;
+  padding: 60px;
+}
+.main__description h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+}
+.main__description h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #646266;
+  line-height: 1.5;
+  width: 28ch;
+}
+
+@media (max-width: 426px) {
+  .image {
+    height: 300px !important;
+    background-position: right 0px !important;
+  }
+}
+@media (max-width: 1000px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+
+  .information {
+    order: 2;
+  }
+
+  .image {
+    order: 1;
+    height: 350px;
+    background-position: right -90px;
+  }
+
+  .main__description h1 {
+    font-size: 50px !important;
+  }
+  .main__description h3 {
+    font-size: 18px !important;
+  }
+}
+@media (max-width: 1072px) {
+  .main__description h1 {
+    font-size: 30px;
+  }
+  .main__description h3 {
+    font-size: 16px;
+  }
+}
+.main__newsletter {
+  display: flex;
+  height: 30%;
+}
+
+.main__input {
+  width: 55%;
+}
+
+.main__newsletter-content {
+  padding-left: 60px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 90%;
+  background-color: #0c0910;
+}
+.main__newsletter-content h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+}
+.main__newsletter-content h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.main__newsletter-submit {
+  background-color: #fff;
+  width: 10%;
+}
+.main__newsletter-submit h4 {
+  margin-top: 60px;
+  transform: rotate(90deg);
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  color: #0c0910;
+}
+
+.main__img {
+  width: 100%;
+  height: auto;
+}
+
+.main__button {
+  border: solid 1px #0c0910;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=main.css.map */

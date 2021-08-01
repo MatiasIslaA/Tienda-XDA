@@ -1,0 +1,27 @@
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 30px;
+}
+
+.nav__title {
+  background-color: $smokyblack;
+  padding: 10px;
+  & a {
+    color: $white !important;
+    font-family: $old;
+    font-size: $xxlarge;
+    text-decoration: none;
+    font-weight: $bold;
+  }
+}
+
+.nav-link {
+  color: $smokyblack;
+  font-family: $raleway;
+  font-weight: $bold;
+}
